@@ -25,13 +25,20 @@ What's a placeholder (replace before launch)
 --------------------------------------------
 - Hero image: currently a CSS gradient. Replace with a real photo by setting
   background-image on the .hero rule in css/styles.css, or add an <img>.
-- Logo: currently text. To use a logo image, replace the text inside <a class="brand">
-  in each HTML file with <img src="images/logo.png" alt="Gobyahan">.
-- Board members: 3 of the 4 are placeholders. Update names/titles in about.html.
+- Logo: currently text. To use a logo image (the black bird symbol from the
+  Canva slides), replace the text inside <a class="brand"> in each HTML file
+  with <img src="images/logo.png" alt="Gobyahan">.
+- Color palette: currently the starter theme. Update the --color-* variables
+  in css/styles.css to match the Canva slide palette.
+- Board members: names, titles, and bios are real (Nimco Yuusuf, Christine
+  Dindia) but their avatars are still letter placeholders — swap in real
+  photos in about.html.
 - Contact info: email, phone, address are placeholders in every footer + contact.html.
-- Forms: the Join, Donate, and Contact forms only show an alert. Connect them to:
-    * A form service (Formspree, Netlify Forms, Basin) for Contact / Join
-    * A payment processor (Stripe, PayPal, Donorbox, Givebutter) for Donate
+- Donate page: donations are intentionally disabled until 501(c)(3) status is
+  obtained (see donate.html). Once that's in place, connect a payment
+  processor (Stripe, PayPal, Donorbox, Givebutter) and re-enable the form.
+- Forms: the Join and Contact forms only show an alert. Connect them to a
+  form service (Formspree, Netlify Forms, Basin).
 
 Hosting suggestions
 -------------------
