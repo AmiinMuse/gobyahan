@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Gobyahan</title>
+  <meta name="description" content="Get in touch with Gobyahan." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="brand">
+        Gobyahan
+        <small>Voices for Change</small>
+      </a>
+      <button class="nav-toggle" aria-label="Open menu">&#9776;</button>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="programs.html">Programs</a></li>
+          <li><a href="join.html">Join Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="donate.html" class="donate">Donate</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page-header">
+    <div class="container">
+      <h1>Contact Us</h1>
+      <p>We'd love to hear from you.</p>
+    </div>
+  </div>
+
+  <section>
+    <div class="container">
+      <div class="two-col">
+        <div>
+          <h2>Reach Out</h2>
+          <p>Whether you have a question about our programs, want to partner with us, or just want to say hello — please get in touch. We typically respond within 2-3 business days.</p>
+          <p><strong>Email:</strong> <a href="mailto:info@gobyahan.org">info@gobyahan.org</a></p>
+          <p><strong>Phone:</strong> (000) 000-0000</p>
+          <p><strong>Address:</strong><br />Gobyahan<br />Street Address<br />City, Country</p>
+        </div>
+        <div>
+          <form data-demo>
+            <div class="form-row">
+              <label for="cname">Name</label>
+              <input type="text" id="cname" name="name" required />
+            </div>
+            <div class="form-row">
+              <label for="cemail">Email</label>
+              <input type="email" id="cemail" name="email" required />
+            </div>
+            <div class="form-row">
+              <label for="csubject">Subject</label>
+              <input type="text" id="csubject" name="subject" />
+            </div>
+            <div class="form-row">
+              <label for="cmessage">Message</label>
+              <textarea id="cmessage" name="message" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>Gobyahan</h4>
+          <p>Empowering voices, inspiring change. A nonprofit dedicated to amplifying the stories of women and youth.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="programs.html">Programs</a></li>
+            <li><a href="join.html">Join Us</a></li>
+            <li><a href="donate.html">Donate</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li>Email: <a href="mailto:info@gobyahan.org">info@gobyahan.org</a></li>
+            <li>Phone: (000) 000-0000</li>
+            <li>Address: City, Country</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; <span id="year">2026</span> Gobyahan. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

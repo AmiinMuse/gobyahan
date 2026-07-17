@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Donate — Gobyahan</title>
+  <meta name="description" content="Support Gobyahan's work with women and youth. Every donation makes a difference." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="brand">
+        Gobyahan
+        <small>Voices for Change</small>
+      </a>
+      <button class="nav-toggle" aria-label="Open menu">&#9776;</button>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="programs.html">Programs</a></li>
+          <li><a href="join.html">Join Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="donate.html" class="donate">Donate</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page-header">
+    <div class="container">
+      <h1>Donate</h1>
+      <p>Your support fuels every workshop, scholarship, and story we help bring to light.</p>
+    </div>
+  </div>
+
+  <section>
+    <div class="container">
+      <p class="section-lead">Gobyahan is powered by a community of supporters who believe in the power of voice and representation. Whether one-time or recurring, your gift makes our work possible.</p>
+
+      <form data-demo>
+        <div class="form-row">
+          <label>Choose an amount</label>
+          <div class="donate-amounts">
+            <button type="button" data-amount="25">$25</button>
+            <button type="button" data-amount="50">$50</button>
+            <button type="button" data-amount="100">$100</button>
+            <button type="button" data-amount="250">$250</button>
+            <button type="button" data-amount="500">$500</button>
+          </div>
+        </div>
+        <div class="form-row">
+          <label for="donate-custom">Or enter a custom amount (USD)</label>
+          <input type="text" id="donate-custom" name="amount" placeholder="$" />
+        </div>
+        <div class="form-row">
+          <label for="donor-name">Your Name</label>
+          <input type="text" id="donor-name" name="name" required />
+        </div>
+        <div class="form-row">
+          <label for="donor-email">Email</label>
+          <input type="email" id="donor-email" name="email" required />
+        </div>
+        <div class="form-row">
+          <label for="donor-message">Note (optional)</label>
+          <textarea id="donor-message" name="message" placeholder="Share a message of support..."></textarea>
+        </div>
+        <button type="submit" class="btn">Continue to Payment</button>
+        <p style="font-size: 0.85rem; color: var(--color-muted); margin-top: 16px;">
+          This is a placeholder form. Connect to a payment processor (Stripe, PayPal, Donorbox, etc.) before launch.
+        </p>
+      </form>
+    </div>
+  </section>
+
+  <section class="alt">
+    <div class="container" style="text-align: center;">
+      <h2 class="section-title">Other Ways to Give</h2>
+      <p class="section-lead">Looking to give in a different way? We welcome checks, in-kind donations, employer matching, and planned giving. Reach out and we'll help you find the right fit.</p>
+      <a href="contact.html" class="btn">Contact Us</a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>Gobyahan</h4>
+          <p>Empowering voices, inspiring change. A nonprofit dedicated to amplifying the stories of women and youth.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="programs.html">Programs</a></li>
+            <li><a href="join.html">Join Us</a></li>
+            <li><a href="donate.html">Donate</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li>Email: <a href="mailto:info@gobyahan.org">info@gobyahan.org</a></li>
+            <li>Phone: (000) 000-0000</li>
+            <li>Address: City, Country</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; <span id="year">2026</span> Gobyahan. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

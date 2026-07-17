@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Join Us — Gobyahan</title>
+  <meta name="description" content="Volunteer, partner, or work with Gobyahan to support women and youth in our communities." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="brand">
+        Gobyahan
+        <small>Voices for Change</small>
+      </a>
+      <button class="nav-toggle" aria-label="Open menu">&#9776;</button>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="programs.html">Programs</a></li>
+          <li><a href="join.html">Join Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="donate.html" class="donate">Donate</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="page-header">
+    <div class="container">
+      <h1>Join Us</h1>
+      <p>Lend your skills, your voice, or your network to Gobyahan's mission.</p>
+    </div>
+  </div>
+
+  <section>
+    <div class="container">
+      <div class="grid grid-3">
+        <div class="card">
+          <h3>Volunteer</h3>
+          <p>From mentoring participants to helping at events, our volunteers are at the heart of what we do. Share your time and skills with us.</p>
+        </div>
+        <div class="card">
+          <h3>Partner</h3>
+          <p>Schools, nonprofits, and businesses can partner with Gobyahan on programs, sponsorships, and community initiatives.</p>
+        </div>
+        <div class="card">
+          <h3>Careers</h3>
+          <p>Open roles and internships are posted here as they become available. We'd love to hear from people who share our values.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="alt">
+    <div class="container">
+      <h2 class="section-title">Get Involved</h2>
+      <p class="section-lead">Tell us a little about yourself and how you'd like to contribute. We'll be in touch.</p>
+      <form data-demo>
+        <div class="form-row">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-row">
+          <label for="interest">I'm interested in</label>
+          <select id="interest" name="interest">
+            <option>Volunteering</option>
+            <option>Partnership</option>
+            <option>Internship / Career</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="message">Tell us more</label>
+          <textarea id="message" name="message"></textarea>
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h4>Gobyahan</h4>
+          <p>Empowering voices, inspiring change. A nonprofit dedicated to amplifying the stories of women and youth.</p>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="programs.html">Programs</a></li>
+            <li><a href="join.html">Join Us</a></li>
+            <li><a href="donate.html">Donate</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul>
+            <li>Email: <a href="mailto:info@gobyahan.org">info@gobyahan.org</a></li>
+            <li>Phone: (000) 000-0000</li>
+            <li>Address: City, Country</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; <span id="year">2026</span> Gobyahan. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
