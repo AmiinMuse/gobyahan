@@ -5,9 +5,10 @@ This is a starter website for Gobyahan, structured per Nimco's email and modeled
 ## Project status
 
 - **Repo:** https://github.com/AmiinMuse/gobyahan
-- **Feedback #1** (Nimco's content updates — tagline, About/Programs/Donate copy, real board bios): open as [PR #1](https://github.com/AmiinMuse/gobyahan/pull/1), not yet merged into `main`.
-- **Hosting:** not yet live. Plan is to deploy `main` to Netlify (free tier) once Feedback #1 is merged. No custom domain yet.
-- **Outstanding assets** (see [Placeholders](#placeholders-replace-before-launch) below): logo, color palette, hero/featured photos, board headshots.
+- **Feedback #1** (Nimco's content updates — tagline, About/Programs/Donate copy, real board bios): merged into `main`.
+- **Feedback #2** (branch `nimco-feedback-round-2`): artistic font (Fraunces + Inter), sage-green color theme, "Our Story" restyled as a letter shown side-by-side with a photo, updated Who We Are / Mission / Vision / bios copy, "Storytelling Workshops" renamed to "Gobyahan Filmmaking Bootcamp" with a linked 2024 recap section and photo gallery on the Programs page, real logo/headshots/bootcamp photos from Nimco's Drive folder wired in throughout, a homepage stats bar + full-site photo slideshow, and a full-profile modal for each board member.
+- **Hosting:** not yet live. Plan is to deploy `main` to Netlify (free tier). No custom domain yet.
+- **Outstanding assets**: contact info (email/phone/address are still placeholders), donation processor, and Join/Contact form backend. Logo, color palette, and all real photos/headshots are now in place — see `images/`.
 
 ## Files
 
@@ -31,12 +32,20 @@ This is a starter website for Gobyahan, structured per Nimco's email and modeled
    ```
    then visit http://localhost:8000
 
+## Image assets
+
+All real photos from Nimco's Drive folder are wired in under `images/`:
+
+- `images/gobyahan-logo.png` — nav logo, all pages
+- `images/hero.jpg` — homepage hero background
+- `images/our-story.jpg` — About page, next to the "Our Story" letter
+- `images/nimco-headshot.jpg`, `images/christine-headshot.jpg` — About page leadership cards + full-profile modals
+- `images/bootcamp-01.jpg` through `bootcamp-09.jpg` — Programs page, "Gobyahan Filmmaking Bootcamp 2024" gallery
+- `images/gallery-01.jpg` through `gallery-09.jpg` — homepage photo slideshow only (pastoral/camel life + additional bootcamp behind-the-scenes shots not used elsewhere)
+- `images/IMG_5979 (1).jpg` — unused; black-and-white duplicate of `our-story.jpg`, kept in the folder in case it's wanted later
+
 ## Placeholders (replace before launch)
 
-- **Hero image:** currently a CSS gradient. Replace with a real photo by setting `background-image` on the `.hero` rule in `css/styles.css`, or add an `<img>`.
-- **Logo:** currently text. To use a logo image (the black bird symbol from the Canva slides), replace the text inside `<a class="brand">` in each HTML file with `<img src="images/logo.png" alt="Gobyahan">`.
-- **Color palette:** currently the starter theme. Update the `--color-*` variables in `css/styles.css` to match the Canva slide palette.
-- **Board members:** names, titles, and bios are real (Nimco Yuusuf, Christine Dindia) but their avatars are still letter placeholders — swap in real photos in `about.html`.
 - **Contact info:** email, phone, address are placeholders in every footer + `contact.html`.
 - **Donate page:** donations are intentionally disabled until 501(c)(3) status is obtained (see `donate.html`). Once that's in place, connect a payment processor (Stripe, PayPal, Donorbox, Givebutter) and re-enable the form.
 - **Forms:** the Join and Contact forms only show an alert. Connect them to a form service (Formspree, Netlify Forms, Basin).
