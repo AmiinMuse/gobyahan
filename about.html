@@ -5,14 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>About Us — Gobyahan</title>
   <meta name="description" content="Our story, mission, vision, and the leaders behind Gobyahan — a Somali-led storytelling platform for climate, culture, and community." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
   <header class="site-header">
     <div class="container">
       <a href="index.html" class="brand">
-        Gobyahan
-        <small>Exhuming Somali Stories</small>
+        <img src="images/gobyahan-logo.png" alt="" class="brand-logo" />
+        <span class="brand-text">Gobyahan<small>Exhuming Somali Stories</small></span>
       </a>
       <button class="nav-toggle" aria-label="Open menu">&#9776;</button>
       <nav class="site-nav">
@@ -37,14 +40,21 @@
 
   <section>
     <div class="container">
-      <div class="two-col">
-        <div>
-          <h2>Our Story</h2>
-          <p>Somaliland has a rich storytelling tradition rooted in oral history and nomadic pastoralism, both of which have preserved knowledge and identity for generations. Yet few organizations focus specifically on youth-led filmmaking, and even fewer operate at the intersection of storytelling, climate awareness, and cultural preservation.</p>
-          <p>At the same time, climate change poses one of the greatest threats to Somaliland's way of life. Recurrent droughts, environmental degradation, displacement, and changing pastoral livelihoods are reshaping communities — and the stories, oral histories, poetry, songs, and traditional knowledge tied to the land are at risk of being lost.</p>
-          <p>Gobyahan was created to bridge these gaps by empowering young storytellers to document their communities, preserve cultural heritage, and raise awareness about the environmental and social challenges shaping Somaliland's future.</p>
+      <h2 class="section-title">Our Story</h2>
+      <div class="story-grid">
+        <div class="letter">
+          <p class="letter-salutation">Dear Visitor,</p>
+          <p>Welcome to Gobyahan. A trip to the vast landscape of Somaliland and the Horn of Africa. A walk with ferocious storytellers of the past and the present. A journey of exhuming and preserving Somali culture.</p>
+          <p>The world the Gobyahandhoore, our valley bird, once roamed freely is experiencing degradation because of climate change. The songs, poems, customs, and traditions that carried the stories of the past are in danger of being lost forever.</p>
+          <p>But there is a generation that refuses to let that happen. Young Somalis, fierce and hungry, who want to tell these stories before they disappear. Young people like Hodan, who studied architecture because filmmaking was never offered as a path, but who directed her first film the moment someone opened the door. Like Awo, who traveled over an hour each way to a workshop she could not afford, because something in her knew it mattered. Like Daud, whose family was scattered by drought, who found his place in the world behind a sound mixer.</p>
+          <p>Gobyahan exists for them. To give young Somali storytellers the tools, training, and platforms to tell their own stories, build real careers, and ensure that Somali voices shape how their world is understood.</p>
+          <p>The stories are still here. So are the storytellers. We are just making sure they find each other.</p>
+          <p class="letter-signature letter-signoff">Nimco Yuusuf<small>Founder, Gobyahan</small></p>
         </div>
-        <div class="placeholder-image">Our Story</div>
+        <div class="story-media">
+          <img class="story-image" src="images/our-story.jpg" alt="A Gobyahandhoore bird perched on an acacia branch in Somaliland" />
+          <img class="story-image" src="images/gallery-02.jpg" alt="Camels grazing with the Somaliland mountains in the background" />
+        </div>
       </div>
     </div>
   </section>
@@ -54,11 +64,11 @@
       <div class="grid grid-2">
         <div class="card">
           <h3>Our Mission</h3>
-          <p>Gobyahan is a hybrid storytelling and film production platform that empowers Somali storyteller youth through training, workshops, and collaborative production. We create films, documentaries, and multimedia projects that center Somali voices and lived experiences, with a focus on climate change and cultural memory.</p>
+          <p>Gobyahan trains young Somali filmmakers to tell their own stories, preserving cultural heritage and raising awareness of the impact of climate change on Somali communities and ways of life.</p>
         </div>
         <div class="card">
           <h3>Our Vision</h3>
-          <p>A future where Somali voices are leading the global narrative on climate change, culture, and resilience through their own storytelling — a thriving creative ecosystem where Somali youth are not only documenters of their realities, but active shapers of how their histories, struggles, and futures are understood.</p>
+          <p>A future where Somali voices lead the global narrative on climate change, culture, and resilience. Where young Somali storytellers are not only documenters of their realities, but active shapers of how their histories, struggles, and futures are understood. Where storytelling is not just a tool for cultural survival, but a viable path, one where young Somali filmmakers have real opportunities, real careers, and the ability to make a living from their craft.</p>
         </div>
       </div>
     </div>
@@ -70,20 +80,56 @@
       <p class="section-lead">Gobyahan is led by Founder and Executive Director Nimco Yuusuf and governed by a board that provides strategic oversight and organizational guidance.</p>
       <div class="board-grid">
         <div class="board-member">
-          <div class="avatar">N</div>
-          <h4>Nimco Yuusuf</h4>
-          <p><strong>Founder &amp; Executive Director</strong></p>
-          <p>Somaliland-born filmmaker whose work focuses on storytelling, cultural preservation, and climate awareness through film. She holds an MFA in Film Production from Ohio University, is a Mastercard Foundation Scholar (2018), and a recipient of the Ohio Legislative Service Commission Media Fellowship (2025).</p>
+          <div class="board-card" role="button" tabindex="0" data-modal-target="modal-nimco">
+            <img class="avatar-img" src="images/nimco-headshot.jpg" alt="Nimco Yuusuf" />
+            <h4>Nimco Yuusuf</h4>
+            <span class="board-role"><strong>Founder &amp; Executive Director</strong></span>
+            <span class="board-toggle-label">View Profile <span class="chevron" aria-hidden="true">&#8250;</span></span>
+          </div>
         </div>
         <div class="board-member">
-          <div class="avatar">C</div>
-          <h4>Christine Dindia</h4>
-          <p><strong>Board Member &amp; Advisor</strong></p>
-          <p>Project and operations professional with extensive experience in program management, organizational operations, and strategic communications across nonprofit and education settings. She supports Gobyahan's strategic planning, partnerships, and program execution.</p>
+          <div class="board-card" role="button" tabindex="0" data-modal-target="modal-christine">
+            <img class="avatar-img" src="images/christine-headshot.jpg" alt="Christine Dindia" />
+            <h4>Christine Dindia</h4>
+            <span class="board-role"><strong>Board Member &amp; Advisor</strong></span>
+            <span class="board-toggle-label">View Profile <span class="chevron" aria-hidden="true">&#8250;</span></span>
+          </div>
         </div>
       </div>
     </div>
   </section>
+
+  <div class="board-modal" id="modal-nimco" hidden>
+    <div class="board-modal-backdrop" data-modal-close></div>
+    <div class="board-modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-nimco-title">
+      <button class="board-modal-close" data-modal-close aria-label="Close">&times;</button>
+      <div class="board-modal-media">
+        <img class="board-modal-photo" src="images/nimco-headshot.jpg" alt="Nimco Yuusuf" />
+      </div>
+      <div class="board-modal-body">
+        <h3 id="modal-nimco-title">Nimco Yuusuf</h3>
+        <p class="board-role"><strong>Founder &amp; Executive Director</strong></p>
+        <p>Nimco Yuusuf is a filmmaker from Somaliland whose work is rooted in Somali oral storytelling traditions and explores themes of identity, culture, migration, and belonging. She holds an MFA in Film Production from Ohio University, is a Mastercard Foundation Scholar, and is a recipient of the Ohio Legislative Service Commission Media Fellowship.</p>
+        <p>Her films have screened nationally and internationally. <em>My Mother's Daughter</em> premiered at the Athens International Video and Film Festival. <em>Henna Stain</em> screened at national and international festivals and was nominated for Ohio Shorts 2025. She is currently in post production on <em>Xergayn</em>, a documentary following a Somali truck driver in Ohio whose nomadic upbringing mirrors the mobility and isolation of his current profession.</p>
+        <p>She founded Gobyahan because she believes that the people closest to a story should have the opportunity to tell it themselves.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="board-modal" id="modal-christine" hidden>
+    <div class="board-modal-backdrop" data-modal-close></div>
+    <div class="board-modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-christine-title">
+      <button class="board-modal-close" data-modal-close aria-label="Close">&times;</button>
+      <div class="board-modal-media">
+        <img class="board-modal-photo" src="images/christine-headshot.jpg" alt="Christine Dindia" />
+      </div>
+      <div class="board-modal-body">
+        <h3 id="modal-christine-title">Christine Dindia</h3>
+        <p class="board-role"><strong>Board Member &amp; Advisor</strong></p>
+        <p>Christine Dindia is a project and operations professional with extensive experience in program management, organizational operations, and strategic communications across nonprofit and education settings. She has held leadership roles including Marketing Director at The First Tee of Silicon Valley, Operations Officer at the University of California Santa Cruz, and Compliance and Special Projects Senior Manager at Daybreak. As a board member and advisor, she supports Gobyahan's strategic planning, partnerships, and program execution.</p>
+      </div>
+    </div>
+  </div>
 
   <footer class="site-footer">
     <div class="container">
